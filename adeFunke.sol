@@ -51,6 +51,23 @@ function approve(address _to, uint256 _amount) public {
     Approve[msg.sender][_to] = _amount;
 }
 
+function TransferFrom(address from, address to, uint256 amount) public {
+    uint256 Updatedbalance = Approve[from][to];
+    require(Updatedbalance >= amount, "Amount unapproved");
+    Approve[from][to] -= amount;
+    balance[from] -= amount;
+    balance[to] += amount;
+
+}
+function allowance(address _addr) public view returns(uint256){
+        return(Approve[msg.sender][_addr]);
+    }
+
+function upgradeable(address _newAddress) public {
+        require(msg.sender == owner, "You are not allowed to upgrade");
+        updateCodeAddress(_newAddress);
+    }
+
 
 
 
