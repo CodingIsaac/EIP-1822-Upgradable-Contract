@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "constructData",
+						"type": "bytes"
+					},
+					{
+						"internalType": "address",
+						"name": "contractLogic",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "initialized",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"proxy.sol": "Proxy"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"proxy.sol": {
+			"keccak256": "0x8d288605706f2b918828e700df83c1e100e1c8ca92c7d9ffda8bf853f3bee497",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://55c5b626fe0fc8d4d74a04cc96b1e28645ec057959925200ae8f8fcf8cc4ac53",
+				"dweb:/ipfs/QmYABkoKZ2vSMqoVHAv2T1Fc9NpPDA8y7ePfUnJ3WG2b2G"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "proxiableUUID",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"adeFunke_flat.sol": "Proxiable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"adeFunke_flat.sol": {
+			"keccak256": "0x7f3aa778920f299aac490d84c4b37fcf589b661ba17405ca0e1974057f7348a5",
+			"urls": [
+				"bzz-raw://315670339900af333a1aeebc7cafc161917c18e07a2cb32654c23e0ade7e73a0",
+				"dweb:/ipfs/QmazPapYbUfhKyoRWApkqDm1QacsnHUpmbx2AGsC5VHK9j"
+			]
+		}
+	},
+	"version": 1
+}
